@@ -1,0 +1,11 @@
+{
+    "name": "$STUDLY_NAME$",
+    "alias": "$LOWER_NAME$",
+    "description": "",
+    "keywords": [],
+    "priority": 200,
+    "aliases": {},
+    "namespace":"$NAMESPACE$",
+    "files": ["function.php"],
+    "requires": []
+}

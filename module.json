@@ -1,0 +1,13 @@
+{
+  "name": "generator",
+  "alias": "OEngineGenerator",
+  "description": "",
+  "keywords": [],
+  "priority": 0,
+  "namespace": "OEngine\\Generator",
+  "providers": ["OEngine\\Generator\\GeneratorServiceProvider"],
+  "aliases": [],
+  "files": [],
+  "requires": [],
+  "status": 1
+}

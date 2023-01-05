@@ -1,0 +1,54 @@
+{
+  "name": "oengine/generator",
+  "description": "laravel support generator module plugin theme hook. like wordpress.",
+  "keywords": [
+    "oengine",
+    "laravel",
+    "core",
+    "wordpress",
+    "oengine Platform"
+  ],
+  "homepage": "https://github.com/oengine/generator",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Nguyen Van Hau",
+      "email": "nguyenvanhau.soft@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {},
+  "require-dev": {},
+  "autoload": {
+    "psr-4": {
+      "OEngine\\Generator\\": "src",
+      "OEngine\\Generator\\Widget\\": "widgets",
+      "OEngine\\Generator\\Database\\Factories\\": "database/factories",
+      "OEngine\\Generator\\Database\\Seeders\\": "database/seeders"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "OEngine\\Generator\\Tests\\": "tests"
+    }
+  },
+  "scripts": {
+    "analyse": "vendor/bin/phpstan analyse",
+    "test": "vendor/bin/pest",
+    "test-coverage": "vendor/bin/pest --coverage",
+    "format": "vendor/bin/pint"
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "OEngine\\Generator\\GeneratorServiceProvider"
+      ],
+      "aliases": { }
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
