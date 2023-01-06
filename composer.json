@@ -20,9 +20,6 @@
   "require": {},
   "require-dev": {},
   "autoload": {
-    "files": [
-      "function.php"
-    ],
     "psr-4": {
       "OEngine\\Generator\\": "src/",
       "OEngine\\Generator\\Widget\\": "widgets/",
