@@ -20,11 +20,14 @@
   "require": {},
   "require-dev": {},
   "autoload": {
+    "files": [
+      "function.php"
+    ],
     "psr-4": {
-      "OEngine\\Generator\\": "src",
-      "OEngine\\Generator\\Widget\\": "widgets",
-      "OEngine\\Generator\\Database\\Factories\\": "database/factories",
-      "OEngine\\Generator\\Database\\Seeders\\": "database/seeders"
+      "OEngine\\Generator\\": "src/",
+      "OEngine\\Generator\\Widget\\": "widgets/",
+      "OEngine\\Generator\\Database\\Factories\\": "database/factories/",
+      "OEngine\\Generator\\Database\\Seeders\\": "database/seeders/"
     }
   },
   "autoload-dev": {
@@ -46,7 +49,7 @@
       "providers": [
         "OEngine\\Generator\\GeneratorServiceProvider"
       ],
-      "aliases": { }
+      "aliases": {}
     }
   },
   "minimum-stability": "dev",
