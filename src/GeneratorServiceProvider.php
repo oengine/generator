@@ -6,9 +6,9 @@ use OEngine\Core\Facades\GateConfig;
 use OEngine\Core\Support\Config\ButtonConfig;
 use OEngine\Core\Support\Config\ConfigManager;
 use Illuminate\Support\ServiceProvider;
-use OEngine\Core\Support\Core\ServicePackage;
 use OEngine\Core\Traits\WithServiceProvider;
 use Illuminate\Support\Facades\Log;
+use OEngine\LaravelPackage\ServicePackage;
 
 class GeneratorServiceProvider extends ServiceProvider
 {
